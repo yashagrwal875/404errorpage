@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.error-box {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: red;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #777;
+    margin: 20px 0;
+}
+
+a {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.2s;
+}
+
+a:hover {
+    background-color: blue;    
+}
+
+footer {
+    background-color: #000;
+    
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    columns: #fff;
+}
